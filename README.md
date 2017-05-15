@@ -1,7 +1,8 @@
 # export-table
 ## Use JS export table,only test in chrome
 
- ```copyTable(TableDemo) //调用导出报表函数
+ ```
+ copyTable(TableDemo) //调用导出报表函数
  
  var idTmr;
  function getExplorer() {
@@ -95,5 +96,5 @@
          }
          window.location.href = uri + base64(format(template, ctx))
      }
- })()```
- 
+ })()
+ ```
